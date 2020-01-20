@@ -8,7 +8,7 @@ include ./common.mk
 
 .PHONY: coverage
 coverage: overalls | $(GOVERALLS) ; $(info $(M) running coveralls) @ ## run coveralls (PROJECT)
-	$Q $(COVERALLS) -coverprofile=$(OVERALLS_PROFILE) -service travis-ci
+	$Q $(GOVERALLS) -coverprofile=overalls.coverprofile -service=travis-ci
 
 
 # this and the common clean will both executed because of ::
