@@ -23,7 +23,7 @@ jobs:
     - stage: build
       script:
         - make test
-        - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then make images-push; fi'
+        - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then make docker-login images-push; fi'
     - stage: coverage
       script:
         - make coverage
