@@ -12,4 +12,18 @@
 *.out
 
 # Dependency directories (remove the comment below to include it)
-# vendor/
+vendor
+
+# makefile specific
+bin
+**/profile.coverprofile
+
+# project specific
+**/_output
+*.DS_Store
+coverage.txt
+*.coverprofile
+*.coverprofile.orig
+.idea
+onit
+gnmi-netconf-adapter
