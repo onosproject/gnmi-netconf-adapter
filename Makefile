@@ -1,4 +1,7 @@
-include ./common.mk
+# if build-tools folder doesnt exist, check it out to build directory
+build-tools:=$(shell if [ ! -d "./build/build-tools" ]; then cd build && git clone https://github.com/onosproject/build-tools.git; fi)
+
+include ./build/build-tools/make/common.mk
 
 ##
 # Add in project specific targets below

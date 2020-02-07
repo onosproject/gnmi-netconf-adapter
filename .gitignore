@@ -27,3 +27,4 @@ coverage.txt
 .idea
 onit
 gnmi-netconf-adapter
+build/build-tools
