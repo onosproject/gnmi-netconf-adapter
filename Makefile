@@ -32,7 +32,7 @@ clean:: ; $(info $(M) gnmi-netconf-adapter clean) @ ## clean (ADDITIONAL)
 images: docker-$(PRJ_NAME) ; $(info $(M) building images...) @ ## build all docker images (ADDITIONAL)
 
 .PHONY: images-push
-images-push: images $(DOCKER_LOGIN) ; $(info $(M) pushing images...) @ ## push docker images (PROJECT)
+images-push: images docker-login ; $(info $(M) pushing images...) @ ## push docker images (PROJECT)
 	docker push onosproject/$(PRJ_NAME):$(PRJ_VERSION)
 
 .PHONY: kind
