@@ -1,0 +1,17 @@
+update: <
+  path: <
+    elem: <
+      name: "configuration"
+    >
+    elem: <
+      name: "version"
+    >
+    target: "ignored"
+  >
+  val: <
+    string_val: "DEMO"
+  >
+>,
+extension: <registered_ext: <id: 100, msg: 'Stuff_used_by_onos_config'>>,
+extension <registered_ext: <id: 101, msg: '19.3R1'>>,
+extension: <registered_ext: <id: 102, msg: 'Junos'>>

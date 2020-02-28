@@ -39,7 +39,7 @@ var versionCmd = &cobra.Command{
 }
 
 func printVersion(w io.Writer, version, commit, date string) {
-	fmt.Fprintf(w, "%v, commit %v, built at %v \n", version, commit, date)
+	_, _ = fmt.Fprintf(w, "%v, commit %v, built at %v \n", version, commit, date)
 }
 
 func init() {

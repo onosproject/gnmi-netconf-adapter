@@ -1,0 +1,24 @@
+update: <
+  path: <
+    elem: <
+      name: "configuration"
+    >
+    elem: <
+      name: "system"
+    >
+    elem: <
+      name: "services"
+    >
+    elem: <
+      name: "ssh"
+    >
+    elem: <
+      name: "max-sessions-per-connection"
+    >
+    target: "ignored"
+  >
+  val: <
+      int_val: 14
+  >
+>
+

@@ -1,0 +1,15 @@
+path: <
+      elem: <
+        name: "configuration"
+      >
+      elem: <
+        name: "system"
+      >
+      elem: <
+        name: "services"
+      >
+      elem: <
+        name: "ssh"
+      >
+      target: "ignored"
+    >

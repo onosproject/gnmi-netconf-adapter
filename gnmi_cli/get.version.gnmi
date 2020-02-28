@@ -1,0 +1,9 @@
+path: <
+    elem: <
+      name: "configuration"
+    >
+    elem: <
+      name: "version"
+    >
+    target: "ignored"
+  >

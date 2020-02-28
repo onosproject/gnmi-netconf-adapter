@@ -1,0 +1,14 @@
+update: <
+  path: <
+    elem: <
+      name: "configuration"
+    >
+    elem: <
+      name: "version"
+    >
+    target: "ignored"
+  >
+  val: <
+    string_val: "DEMO222"
+  >
+>
