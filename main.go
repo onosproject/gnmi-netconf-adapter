@@ -16,9 +16,10 @@ package main
 
 import (
 	"github.com/onosproject/gnmi-netconf-adapter/cmd"
+	"k8s.io/klog"
 )
 
 func main() {
-
+	klog.InitFlags(nil)
 	cmd.Execute()
 }
