@@ -1,4 +1,4 @@
-# gnmi-netconf-adapter
+# gnmi-netconf-adapter 
 
 [![Build Status](https://travis-ci.org/onosproject/gnmi-netconf-adapter.svg?branch=master)](https://travis-ci.org/onosproject/gnmi-netconf-adapter)
 [![Integration Test Status](https://img.shields.io/travis/onosproject/gnmi-netconf-adapter?label=Integration%20Tests&logo=Integration)](https://travis-ci.org/onosproject/onos-test)
